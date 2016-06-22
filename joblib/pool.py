@@ -42,7 +42,7 @@ except ImportError:
 
 # Customizable pure Python pickler in Python 2
 # customizable C-optimized pickler under Python 3.3+
-from pickle import Pickler
+from dill import Pickler
 
 from pickle import HIGHEST_PROTOCOL
 from io import BytesIO

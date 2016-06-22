@@ -17,7 +17,7 @@ import itertools
 from numbers import Integral
 from contextlib import contextmanager
 try:
-    import cPickle as pickle
+    import dill as pickle
 except:
     import pickle
 
